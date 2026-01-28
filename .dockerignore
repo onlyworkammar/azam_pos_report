@@ -1,0 +1,48 @@
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Documentation
+README.md
+*.md
+
+# IDE
+.idea
+.vscode
+*.iml
+*.swp
+*.swo
+*~
+
+# Build outputs
+build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Flutter
+.packages
+.pub-cache
+.pub/
+pubspec.lock
+
+# Test
+test/
+coverage/
+
+# Android
+android/
+ios/
+linux/
+macos/
+windows/
+
+# Docker
+Dockerfile
+.dockerignore
+docker-compose.yml

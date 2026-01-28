@@ -1,0 +1,55 @@
+# This file specifies files that are *not* uploaded to Google Cloud
+# using gcloud. It follows the same syntax as .gitignore
+
+.gcloudignore
+.git
+.gitignore
+.gitattributes
+
+# Documentation
+README.md
+DEPLOYMENT.md
+*.md
+
+# IDE
+.idea
+.vscode
+*.iml
+*.swp
+*.swo
+*~
+
+# Build outputs (will be built in Cloud Build)
+build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Flutter
+.packages
+.pub-cache
+.pub/
+
+# Test
+test/
+coverage/
+
+# Platform specific (not needed for web)
+android/
+ios/
+linux/
+macos/
+windows/
+
+# Docker (already in container)
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Deployment scripts (not needed in build)
+deploy.sh
+deploy-local.sh
